@@ -11,7 +11,7 @@ if not st.session_state.authenticated:
     st.write("Введи пароль, чтобы открыть ❤️")
     user_input = st.text_input("Пароль", type="password")
     if st.button("Войти"):
-        if user_input == st.secrets["gift_password"]:  # Здесь берём пароль из secrets
+        if user_input == st.secrets["gift_password"]:
             st.session_state.authenticated = True
             st.success("Добро пожаловать, моя любовь! 🥰")
             st.rerun()
