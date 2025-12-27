@@ -2,9 +2,7 @@ import streamlit as st
 import random
 from datetime import datetime
 
-# --- ЗАЩИТА ПАРОЛЕМ ---
-password = "14062025"  # Замени на свой
-
+# --- ЗАЩИТА ПАРОЛЕМ ЧЕРЕЗ SECRETS ---
 if 'authenticated' not in st.session_state:
     st.session_state.authenticated = False
 
@@ -13,14 +11,13 @@ if not st.session_state.authenticated:
     st.write("Введи пароль, чтобы открыть ❤️")
     user_input = st.text_input("Пароль", type="password")
     if st.button("Войти"):
-        if user_input == password:
+        if user_input == st.secrets["gift_password"]:  # Здесь берём пароль из secrets
             st.session_state.authenticated = True
             st.success("Добро пожаловать, моя любовь! 🥰")
             st.rerun()
         else:
             st.error("Неверный пароль 😔")
     st.stop()
-
 # --- КОНЕЦ ЗАЩИТЫ ---
 
 
