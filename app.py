@@ -44,7 +44,7 @@ compliments = [
 ]
 
 backgrounds = {
-    "Главная": "https://thumbs.dreamstime.com/b/cute-teddy-bears-hearts-valentine-s-pastel-colors-adorable-holding-against-soft-light-blue-bokeh-background-perfect-day-353879663.jpg",
+    "Главная": "https://99px.ru/sstorage/53/2014/01/mid_93854_9728.jpg",
     "Новогоднее поздравление": "https://m.media-amazon.com/images/I/71yqRuERr5L._AC_UF894,1000_QL80_.jpg",
     "Сюрприз любви": "https://img.freepik.com/premium-photo/valentines-day-pink-background-with-red-pink-hearts_280388-860.jpg",
     "Почему я тебя люблю": "https://thumbs.dreamstime.com/b/valentines-day-hearts-abstract-holiday-background-pastel-colored-heart-shaped-lights-texture-st-valentine-s-love-wedding-wallpaper-300646016.jpg",
@@ -54,7 +54,7 @@ backgrounds = {
 }
 
 bear_images = [
-    "https://thumbs.dreamstime.com/b/adorable-bear-friends-celebrate-new-year-five-pastel-colored-teddy-bears-dressed-party-hats-joyfully-surrounded-confetti-421300540.jpg",
+    "https://99px.ru/sstorage/53/2020/10/mid_316371_785261.jpg",
     "https://media.istockphoto.com/id/171146711/photo/teddy-bear-new-years-day.jpg?s=612x612&w=0&k=20&c=bbvMtqOGMplW8UC2jFnMfhYwYb93-D8-1J7_TWXKohI=",
     "https://png.pngtree.com/thumb_back/fw800/background/20251127/pngtree-happy-new-year-celebration-with-adorable-teddy-bear-image_20621582.webp",
     "https://png.pngtree.com/thumb_back/fw800/background/20251127/pngtree-cute-teddy-bear-celebrating-new-year-with-party-hat-and-heart-image_20621595.webp",
@@ -129,7 +129,7 @@ elif page.startswith("Наши воспоминания"):
     st.write("Наши лучшие моменты :")
     col1, col2 = st.columns(2)
     with col1:
-        st.image("photo1.jpg", caption="Наше первое свидание 💑")  # Или URL
+        st.image("photo1.jpg", caption="Просто милая семейная фотка) 💑")  
         st.image("photo3.jpg", caption="Путешествие вместе ✈️")
     with col2:
         st.image("photo2.jpg", caption="Напоминание что нам нужно больше совместных фото")
