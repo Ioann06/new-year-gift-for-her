@@ -44,7 +44,7 @@ compliments = [
 ]
 
 backgrounds = {
-    "Главная": "https://99px.ru/sstorage/53/2014/01/mid_93854_9728.jpg",
+    "Главная": "https://pibig.info/uploads/posts/2022-11/1669725843_1-pibig-info-p-samie-milie-oboi-instagram-1.jpg",
     "Новогоднее поздравление": "https://m.media-amazon.com/images/I/71yqRuERr5L._AC_UF894,1000_QL80_.jpg",
     "Сюрприз любви": "https://img.freepik.com/premium-photo/valentines-day-pink-background-with-red-pink-hearts_280388-860.jpg",
     "Почему я тебя люблю": "https://thumbs.dreamstime.com/b/valentines-day-hearts-abstract-holiday-background-pastel-colored-heart-shaped-lights-texture-st-valentine-s-love-wedding-wallpaper-300646016.jpg",
